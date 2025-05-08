@@ -9,14 +9,21 @@ To implement a logistic regression model to classify food items for diabetic pat
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import necessary libraries.
-2.Load the dataset using pd.read_csv().
-3.Display data types, basic statistics, and class distributions.
-4.Visualize class distributions with a bar plot.
-5.Scale feature columns using MinMaxScaler.
-6.Encode target labels with LabelEncoder.
-7.Split data into training and testing sets with train_test_split().
-8.Train LogisticRegression with specified hyperparameters and evaluate the model using metrics and a confusion matrix plot.
+1. Load Data Import and prepare the dataset to initiate the analysis workflow.
+
+2. Explore Data Examine the data to understand key patterns, distributions, and feature relationships.
+
+3. Select Features Choose the most impactful features to improve model accuracy and reduce complexity.
+
+4. Split Data Partition the dataset into training and testing sets for validation purposes.
+
+5. Scale Features Normalize feature values to maintain consistent scales, ensuring stability during training.
+
+6. Train Model with Hyperparameter Tuning Fit the model to the training data while adjusting hyperparameters to enhance performance.
+
+7. Evaluate Model Assess the model’s accuracy and effectiveness on the testing set using performance metrics.
+
+
 ## Program:
 ```
 /*/*
